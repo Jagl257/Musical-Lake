@@ -28,3 +28,9 @@ Using the programming language that you feel most proficient with, write a progr
     When given croac or brrah it shouldn't reproduce anything according to all songs
 
 ______________________________________________________________________________________________
+
+To test the program, run 
+'''
+python3 -m unittest tests.songTest
+'''
+
