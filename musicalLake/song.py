@@ -11,9 +11,9 @@ soundmap = {
     'bri-bri': "plop",
 }
 
-def song(sound):
-    if soundmap.get(sound,"null") is "null":
+def singsong(sound):
+    if soundmap.get(sound,"null") == "null":
         return "\n"
     else:
         nextSound = soundmap.get(sound,"croac")
-        return (nextSound + ", " + song(nextSound))
+        return (nextSound + ", " + singsong(nextSound))
