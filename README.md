@@ -30,7 +30,7 @@ Using the programming language that you feel most proficient with, write a progr
 ______________________________________________________________________________________________
 
 To test the program, run 
-'''
+```shell
 python3 -m unittest tests.songTest
-'''
+```
 
